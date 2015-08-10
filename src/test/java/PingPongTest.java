@@ -23,4 +23,16 @@ public class PingPongTest {
         assertEquals(expected, testPingPong.playPingPong(3));
     }
 
+    @Test
+    public void playPingPong_pingForMultiplesOfFive_pong() {
+        PingPong testPingPong = new PingPong();
+        ArrayList<Object> expected =  new ArrayList<Object>();
+        expected.add(1);
+        expected.add(2);
+        expected.add("Ping");
+        expected.add(4);
+        expected.add("Pong");
+        assertEquals(expected, testPingPong.playPingPong(5));
+    }
+
 }
