@@ -6,8 +6,8 @@ public class PingPong {
 
   }
 
-  public ArrayList<Integer> playPingPong(int myNumber){
-      ArrayList<Integer> result = new ArrayList<Integer>();
+  public ArrayList<Object> playPingPong(int myNumber){
+      ArrayList<Object> result = new ArrayList<Object>();
       return result;
   }
 }

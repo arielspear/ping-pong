@@ -6,10 +6,21 @@ public class PingPongTest {
     @Test
     public void playPingPong_countsToNumber_correctArrayList() {
         PingPong testPingPong = new PingPong();
-        ArrayList<Integer> expected =  new ArrayList<Integer>();
+        ArrayList<Object> expected =  new ArrayList<Object>();
         expected.add(1);
         expected.add(2);
         assertEquals(expected, testPingPong.playPingPong(2));
+    }
+
+
+    @Test
+    public void playPingPong_pingForMultiplesOfThree_ping() {
+        PingPong testPingPong = new PingPong();
+        ArrayList<Object> expected =  new ArrayList<Object>();
+        expected.add(1);
+        expected.add(2);
+        expected.add("Ping");
+        assertEquals(expected, testPingPong.playPingPong(3));
     }
 
 }
