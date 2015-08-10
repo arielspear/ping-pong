@@ -6,6 +6,10 @@ public class PingPong {
 
   }
 
+  public Boolean inputIsValid(int myNumber) {
+      return (myNumber > 0); 
+  }
+
   public ArrayList<Object> playPingPong(int myNumber){
       ArrayList<Object> result = new ArrayList<Object>();
 

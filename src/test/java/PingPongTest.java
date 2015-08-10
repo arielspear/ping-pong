@@ -58,10 +58,10 @@ public class PingPongTest {
     }
 
     @Test
-    public void playPingPong_rejectNumbersLessThanOne() {
+    public void inputIsValid_rejectNumbersLessThanOne_false() {
         PingPong testPingPong = new PingPong();
-        String message = "Invalid Input";
-        assertEquals(message, testPingPong.playPingPong(0));
+        assertEquals(false, testPingPong.inputIsValid(0));
+        assertEquals(false, testPingPong.inputIsValid(-2));
     }
 
 }
