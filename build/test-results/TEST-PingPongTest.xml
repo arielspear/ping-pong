@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PingPongTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-08-10T18:31:58" hostname="epicodus-101.local" time="0.003">
+<testsuite name="PingPongTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-08-10T22:32:43" hostname="epicodus-101.local" time="0.003">
   <properties/>
   <testcase name="playPingPong_pingPongForMultiplesOfFifteen_pingPong" classname="PingPongTest" time="0.002"/>
   <testcase name="inputIsValid_rejectNumbersLessThanOne_false" classname="PingPongTest" time="0.0"/>
   <testcase name="playPingPong_pingForMultiplesOfFive_pong" classname="PingPongTest" time="0.0"/>
-  <testcase name="playPingPong_pingForMultiplesOfThree_ping" classname="PingPongTest" time="0.001"/>
+  <testcase name="inputIsValid_rejectTypesOtherThanInt_false" classname="PingPongTest" time="0.001"/>
+  <testcase name="playPingPong_pingForMultiplesOfThree_ping" classname="PingPongTest" time="0.0"/>
   <testcase name="playPingPong_countsToNumber_correctArrayList" classname="PingPongTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Invalid input. Please enter an integer greater than 0.
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
